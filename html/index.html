@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Projects Menager</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <div id="header-logo">
+          <h1>Projects Menager</h1>
+        </div>
+        <div id="header-box">
+          <div class="header-box__cont">
+            <a href="https://github.com/JaszczureX">
+              <div class="header-cont__link">
+                <span>GitHub</span>
+                <span class="material-symbols-outlined"> rocket_launch </span>
+              </div>
+            </a>
+          </div>
+          <div class="header-box__cont">
+            <a href="https://github.com/JaszczureX">
+              <div class="header-cont__link">
+                <span>GitHub</span>
+                <span class="material-symbols-outlined"> rocket_launch </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </header>
+      <aside>
+        <div id="aside-header">
+          <div id="aside-header__logo">
+            <span> Workers </span>
+            <span class="material-symbols-outlined"> groups </span>
+          </div>
+        </div>
+        <div id="aside-workers__list">
+          <ul>
+            <li>Steve</li>
+            <li>Alex</li>
+            <li>Marcus</li>
+            <li>Bob</li>
+            <li>Greg</li>
+          </ul>
+        </div>
+      </aside>
+      <main>
+        <div id="main-inputs__box">
+          <div id="checkBoxes">
+            <div>
+              <label for="ImportantCheck">Important: </label>
+              <input type="checkbox" id="ImportantCheck" />
+            </div>
+            <div>
+              <label for="select_worker">Choose Worker</label>
+              <select name="Worker" id="select_worker">
+                <option name="Worker" value="Steve">Steve</option>
+                <option name="Worker" value="Alex">Alex</option>
+                <option name="Worker" value="Marcus">Marcus</option>
+                <option name="Worker" value="Bob">Bob</option>
+                <option name="Worker" value="Greg">Greg</option>
+              </select>
+            </div>
+          </div>
+          <div id="text-inputs__box">
+            <div id="__text-inputs">
+              <input type="text" placeholder="Title" userHeaderInput />
+              <input type="text" placeholder="body" userBodyInput />
+            </div>
+            <div id="SubmitButton__box">
+              <button submitButton>Submit!</button>
+            </div>
+          </div>
+        </div>
+        <div id="main-tasks__box"></div>
+      </main>
+    </div>
+    <script src="../javascript/main.js" defer></script>
+  </body>
+</html>
